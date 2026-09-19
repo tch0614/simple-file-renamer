@@ -6,7 +6,7 @@ Usage:
 """
 import argparse
 import os
-
+# TODO: add regex support for custom renaming rules
 def main():
     parser = argparse.ArgumentParser(description="Batch rename files in a folder")
     parser.add_argument("--path", type=str, default=".", help="Target directory")
